@@ -1,0 +1,17 @@
+# js-mail
+
+## traccia
+
+Chiedi all'utente la sua email,
+
+controlla che sia nella lista di chi può accedere,
+
+stampa un messaggio appropriato sull'esito del controllo.
+
+## svolgimento
+
+- inizializo una costante con un array con mail di esempio
+- chiedo la mail all'user con metodo promt e la salvo in una costante
+- invoco un ciclo **FOR** per ogni elemento del array mail di esempio
+  - **IF** confronto l'elemento del array con la mail costante del user
+    - se correta stampo alert accesso con successo

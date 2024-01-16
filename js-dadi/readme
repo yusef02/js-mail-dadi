@@ -1,0 +1,21 @@
+# js-dadi
+
+## traccia
+
+Gioco dei dadi
+
+Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
+
+Stabilire il vincitore, in base a chi fa il punteggio più alto.
+
+## svolgimento
+
+- inizializo una varibile per il numero del computer
+- inizializo una varibile per il numero del user
+
+- **IF** numero computer == numero user
+  - alert è un pareggio
+- **IF** numero computer > numero user
+  - alert ha vinto il compuer
+- **IF** numero computer <> numero user
+  - alert ha vinto l'user
